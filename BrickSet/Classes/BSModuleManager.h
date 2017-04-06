@@ -16,7 +16,7 @@
 /**
  安装模块
 
- @param cls 模块类，必须遵循BSModule协议
+ @param moduleClass 模块类，必须遵循BSModule协议
  @return 安装是否成功
  */
 - (BOOL)setupModule:(Class)moduleClass;
